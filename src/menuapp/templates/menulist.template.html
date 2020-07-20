@@ -1,0 +1,6 @@
+<ul style="color:#C70039">
+  <li ng-repeat="item in $ctrl.items"
+      ui-sref="items({shortname: item.short_name})">
+    {{ item.short_name }} - {{ item.name }}
+  </li>
+</ul>
